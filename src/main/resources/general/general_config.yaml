@@ -1,0 +1,5 @@
+environment: qa
+web_app_url: https://google.com/
+authentication_mode: SSO
+wait_timeout_in_seconds: 30
+ui_timeout_in_seconds: 2

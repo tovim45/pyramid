@@ -1,0 +1,31 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="elbit">
+
+    <!--Set Env Variable: -->
+    <!--alpha-->
+    <!--beta-->
+    <!--gamma-->
+    <!--delta-->
+    <!--epsilon-->
+    <parameter name="env" value="${environment}"/>
+    <parameter name="getVersions" value="${getVersions}"/>
+    <parameter name="isLinuxMachine" value="${isLinux}"/>
+
+    <!--Set Portal Variable: -->
+    <!--intel360 Web Portal-->
+    <parameter name="portal" value="intel360"/>
+
+    <test name="SSH CG Portal Manual Transaction">
+
+        <parameter name="browserType" value="${browser}"/>
+
+        <classes>
+            <class name="com.elbit.tests.ssh.ManualTransactionSSH"/>
+
+        </classes>
+
+    </test>
+
+</suite>

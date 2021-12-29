@@ -1,0 +1,39 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="elbit">
+
+    <!--Set Env Variable: -->
+    <!--alpha-->
+    <!--beta-->
+    <!--gamma-->
+    <!--delta-->
+    <!--epsilon-->
+    <parameter name="env" value="alpha"/>
+    <parameter name="getVersions" value="false"/>
+
+
+    <parameter name="isLinuxMachine" value="false"/>
+
+
+    <!--Set Portal Variable: -->
+    <!--intel360-->
+    <parameter name="portal" value="intel360"/>
+
+    <test name="Automation Tests">
+        <!--Set Browser Variable:-->
+        <!--CHROME-->
+        <!--FF-->
+        <!--EDGE-->
+        <!--IE-->
+        <parameter name="browserType" value="CHROME"/>
+
+        <classes>
+
+            <class name="com.elbit.tests.k8s.getK8sData"/>
+
+        </classes>
+
+    </test>
+
+</suite>

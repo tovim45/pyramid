@@ -1,0 +1,62 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="elbit">
+
+    <!--Set Env Variable: -->
+    <!--QA-->
+    <!--DEV-->
+    <parameter name="env" value="QA"/>
+    <parameter name="isJenkins" value="false"/>
+
+    <parameter name="isLinuxMachine" value="FALSE"/>
+
+    <!-- Device name -->
+    <parameter name="deviceName" value="Carbon5 Emulator"/>
+
+    <!-- The absolute local path or remote http URL to .apk file -->
+    <parameter name="app" value="EriBank.apk"/>
+
+    <!-- Universal device identifier -->
+    <parameter name="udid" value="emulator-5554"/>
+
+    <!-- android ios  -->
+    <parameter name="platform" value="android"/>
+
+    <!-- app Pakeage -->
+    <parameter name="appPackage" value="com.experitest.ExperiBank"/>
+
+    <!-- App Activity  -->
+    <parameter name="appActivity" value=".LoginActivity"/>
+
+    <!-- browser Name -->
+    <parameter name="browserName" value=""/>
+
+    <!-- URL to Appium server-->
+    <parameter name="serverUrl" value="http://127.0.0.1:4723"/>
+
+
+    <!--Set Portal Variable: -->
+    <!--CPPortal-->
+    <!--CGPortal-->
+    <!--EOAdmin-->
+    <parameter name="portal" value="CPPortal"/>
+
+    <test name="Automation Tests">
+        <!--Set Browser Variable:-->
+        <!--CHROME-->
+        <!--FF-->
+        <!--EDGE-->
+        <!--IE-->
+        <parameter name="browserType" value="CHROME"/>
+
+        <classes>
+
+            <class name="com.elbit.tests.android.examples.appiumBank"/>
+
+
+        </classes>
+
+    </test>
+
+</suite>

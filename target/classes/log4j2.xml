@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Configuration>
+  <Properties>
+    <Property name="loggingPattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%-5level] %msg%n"/>
+    <Property name="regexFilter" value="^:::.*|.*Exception:.*|.*Error:.*|.*com\.elbitsystems.*"/>
+  </Properties>
+
+  <Appenders>
+    <File name="File" fileName="./reports/tests_run_log.log" append="false">
+      <RegexFilter regex="${regexFilter}" onMatch="ACCEPT" onMismatch="DENY"/>
+      <PatternLayout pattern="${loggingPattern}"/>
+    </File>
+    <Console name="Console">
+      <RegexFilter regex="${regexFilter}" onMatch="ACCEPT" onMismatch="DENY"/>
+      <PatternLayout pattern="${loggingPattern}"/>
+    </Console>
+  </Appenders>
+
+  <Loggers>
+    <Root level="trace">
+      <AppenderRef ref="File" level="debug"/>
+      <AppenderRef ref="Console" level="debug"/>
+    </Root>
+  </Loggers>
+</Configuration>
