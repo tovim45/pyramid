@@ -1,11 +1,18 @@
-2022-01-04 15:33:39.809 [DEBUG] ::: The Automation tests runs on url: null
-2022-01-04 15:33:39.825 [DEBUG] ::: user.dir = C:\automation\pyramid
-2022-01-04 15:33:39.825 [DEBUG] ::: user.home = C:\Users\giora.tovim
-2022-01-04 15:33:39.825 [DEBUG] ::: Env: win32
-2022-01-04 15:33:39.825 [DEBUG] ::: Portal: pyramid
-2022-01-04 15:33:39.856 [DEBUG] ::: isLinuxMachine = false
-2022-01-04 15:33:39.856 [DEBUG] ::: method Name: getallPodsStatus
-2022-01-04 15:33:39.956 [INFO ] ::: C:\automation\pyramid\src\main\java\com\pyramid\infra\k8s\config
-2022-01-04 15:33:40.287 [DEBUG] ::: isLinuxMachine = false
-2022-01-04 15:33:40.303 [DEBUG] ::: method Name: getallImages
-2022-01-04 15:33:40.303 [INFO ] ::: C:\automation\pyramid\src\main\java\com\pyramid\infra\k8s\config
+2022-01-04 19:10:38.135 [DEBUG] ::: The Automation tests runs on url: null
+2022-01-04 19:10:38.167 [DEBUG] ::: user.dir = C:\automation\pyramid
+2022-01-04 19:10:38.167 [DEBUG] ::: user.home = C:\Users\giora.tovim
+2022-01-04 19:10:38.167 [DEBUG] ::: Env: Win2
+2022-01-04 19:10:38.167 [DEBUG] ::: Portal: Pyramid
+2022-01-04 19:10:38.188 [DEBUG] ::: isLinuxMachine = FALSE
+2022-01-04 19:10:38.188 [DEBUG] ::: method Name: addModelUI
+2022-01-04 19:10:38.188 [DEBUG] ::: Web browser switch: CHROME
+2022-01-04 19:10:38.188 [DEBUG] ::: Starting CHROME web driver
+2022-01-04 19:10:38.188 [DEBUG] ::: C:\automation
+2022-01-04 19:10:38.188 [DEBUG] ::: set System setProperty for chromedriver Windows
+2022-01-04 19:10:39.278 [DEBUG] ::: CHROME web driver started successfully
+2022-01-04 19:10:39.812 [DEBUG] ::: Send keys: autoadmin to: presented-username
+2022-01-04 19:10:39.864 [DEBUG] ::: Send keys: snap3535! to: password
+2022-01-04 19:10:39.896 [DEBUG] ::: Click: By.id: btnSubmit
+2022-01-04 19:10:40.032 [DEBUG] ::: Click: By.id: side-menu-button-model
+2022-01-04 19:10:42.042 [DEBUG] ::: Click: By.className: file-uploader
+2022-01-04 19:10:43.720 [DEBUG] ::: Click: By.id: model-save-btn
