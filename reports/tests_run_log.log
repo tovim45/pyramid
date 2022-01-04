@@ -1,20 +1,11 @@
-2021-12-29 13:41:07.732 [DEBUG] ::: The Automation tests runs on url: null
-2021-12-29 13:41:07.772 [DEBUG] ::: user.dir = C:\automation\pyramid
-2021-12-29 13:41:07.773 [DEBUG] ::: user.home = C:\Users\user.DESKTOP-43EVUDK
-2021-12-29 13:41:07.775 [DEBUG] ::: Env: QA
-2021-12-29 13:41:07.776 [DEBUG] ::: Portal: linkedin
-2021-12-29 13:41:07.822 [DEBUG] ::: isLinuxMachine = FALSE
-2021-12-29 13:41:07.828 [DEBUG] ::: method Name: linkedinVerifyConnectionNameUI
-2021-12-29 13:41:07.829 [DEBUG] ::: Web browser switch: CHROME
-2021-12-29 13:41:07.829 [DEBUG] ::: Starting CHROME web driver
-2021-12-29 13:41:07.830 [DEBUG] ::: C:\automation
-2021-12-29 13:41:07.830 [DEBUG] ::: set System setProperty for chromedriver Windows
-2021-12-29 13:41:10.250 [DEBUG] ::: CHROME web driver started successfully
-2021-12-29 13:41:11.616 [DEBUG] ::: Send keys: gilnada007@gmail.com to: session_key
-2021-12-29 13:41:11.775 [DEBUG] ::: Send keys: gtgtgt to: session_password
-2021-12-29 13:41:11.846 [DEBUG] ::: Click: By.xpath: //button[@type='submit']
-2021-12-29 13:41:16.045 [DEBUG] ::: Click: By.xpath: //span[text()='Me']
-2021-12-29 13:41:16.139 [DEBUG] ::: Click: By.xpath: //*[text()='View Profile']
-2021-12-29 13:41:16.827 [DEBUG] ::: Click: By.xpath: //*[text()=' connections']
-2021-12-29 13:41:19.844 [DEBUG] ::: checkTextPresenceInWebpage(Maia) returned: true
-2021-12-29 13:41:22.210 [DEBUG] ::: checkTextPresenceInWebpage(nameThatIsNotExists) returned: false
+2022-01-04 15:33:39.809 [DEBUG] ::: The Automation tests runs on url: null
+2022-01-04 15:33:39.825 [DEBUG] ::: user.dir = C:\automation\pyramid
+2022-01-04 15:33:39.825 [DEBUG] ::: user.home = C:\Users\giora.tovim
+2022-01-04 15:33:39.825 [DEBUG] ::: Env: win32
+2022-01-04 15:33:39.825 [DEBUG] ::: Portal: pyramid
+2022-01-04 15:33:39.856 [DEBUG] ::: isLinuxMachine = false
+2022-01-04 15:33:39.856 [DEBUG] ::: method Name: getallPodsStatus
+2022-01-04 15:33:39.956 [INFO ] ::: C:\automation\pyramid\src\main\java\com\pyramid\infra\k8s\config
+2022-01-04 15:33:40.287 [DEBUG] ::: isLinuxMachine = false
+2022-01-04 15:33:40.303 [DEBUG] ::: method Name: getallImages
+2022-01-04 15:33:40.303 [INFO ] ::: C:\automation\pyramid\src\main\java\com\pyramid\infra\k8s\config

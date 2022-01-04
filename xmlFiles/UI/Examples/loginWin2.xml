@@ -2,23 +2,16 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="pyramid">
-
     <!--Set Env Variable: -->
-    <!--alpha-->
-    <!--beta-->
-    <!--gamma-->
-    <!--delta-->
-    <!--epsilon-->
-    <parameter name="env" value="win32"/>
-    <parameter name="getVersions" value="false"/>
+    <!--QA-->
+    <!--DEV-->
+    <parameter name="env" value="Win2"/>
 
-
-    <parameter name="isLinuxMachine" value="false"/>
-
+    <parameter name="isMobile" value="FALSE"/>
+    <parameter name="isLinuxMachine" value="FALSE"/>
 
     <!--Set Portal Variable: -->
-    <!--intel360-->
-    <parameter name="portal" value="pyramid"/>
+    <parameter name="portal" value="Pyramid"/>
 
     <test name="Automation Tests">
         <!--Set Browser Variable:-->
@@ -27,13 +20,8 @@
         <!--EDGE-->
         <!--IE-->
         <parameter name="browserType" value="CHROME"/>
-
         <classes>
-
-            <class name="com.pyramid.tests.k8s.getK8sData"/>
-
+            <class name="com.pyramid.tests.ui.win2Test"/>
         </classes>
-
     </test>
-
 </suite>
