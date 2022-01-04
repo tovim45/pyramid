@@ -14,6 +14,8 @@ public class ModelModules extends BaseModule {
     private final By password = By.id("password");
     private final By login = By.id("btnSubmit");
     private final By model = By.id("side-menu-button-model");
+    private final By uploadFile =  By.className("file-uploader");
+    private final By buildBtn = By.id("model-save-btn");
 
     public ModelModules() {
         super(URL, TITLE);
@@ -30,4 +32,12 @@ public class ModelModules extends BaseModule {
         click(model);
     }
 
+    public void uploadFile(String fileName) {
+        click(uploadFile);
+        fileUpload(fileName);
+    }
+
+    public void clickBuild(){
+        click(buildBtn);
+    }
 }
