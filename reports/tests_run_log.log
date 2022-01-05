@@ -1,18 +1,19 @@
-2022-01-04 19:10:38.135 [DEBUG] ::: The Automation tests runs on url: null
-2022-01-04 19:10:38.167 [DEBUG] ::: user.dir = C:\automation\pyramid
-2022-01-04 19:10:38.167 [DEBUG] ::: user.home = C:\Users\giora.tovim
-2022-01-04 19:10:38.167 [DEBUG] ::: Env: Win2
-2022-01-04 19:10:38.167 [DEBUG] ::: Portal: Pyramid
-2022-01-04 19:10:38.188 [DEBUG] ::: isLinuxMachine = FALSE
-2022-01-04 19:10:38.188 [DEBUG] ::: method Name: addModelUI
-2022-01-04 19:10:38.188 [DEBUG] ::: Web browser switch: CHROME
-2022-01-04 19:10:38.188 [DEBUG] ::: Starting CHROME web driver
-2022-01-04 19:10:38.188 [DEBUG] ::: C:\automation
-2022-01-04 19:10:38.188 [DEBUG] ::: set System setProperty for chromedriver Windows
-2022-01-04 19:10:39.278 [DEBUG] ::: CHROME web driver started successfully
-2022-01-04 19:10:39.812 [DEBUG] ::: Send keys: autoadmin to: presented-username
-2022-01-04 19:10:39.864 [DEBUG] ::: Send keys: snap3535! to: password
-2022-01-04 19:10:39.896 [DEBUG] ::: Click: By.id: btnSubmit
-2022-01-04 19:10:40.032 [DEBUG] ::: Click: By.id: side-menu-button-model
-2022-01-04 19:10:42.042 [DEBUG] ::: Click: By.className: file-uploader
-2022-01-04 19:10:43.720 [DEBUG] ::: Click: By.id: model-save-btn
+2022-01-05 15:20:09.531 [DEBUG] ::: The Automation tests runs on url: null
+2022-01-05 15:20:09.555 [DEBUG] ::: user.dir = C:\automation\pyramid
+2022-01-05 15:20:09.556 [DEBUG] ::: user.home = C:\Users\giora.tovim
+2022-01-05 15:20:09.556 [DEBUG] ::: Env: Win2
+2022-01-05 15:20:09.556 [DEBUG] ::: Portal: Pyramid
+2022-01-05 15:20:09.588 [DEBUG] ::: isLinuxMachine = FALSE
+2022-01-05 15:20:09.592 [DEBUG] ::: method Name: addModelUI
+2022-01-05 15:20:09.593 [DEBUG] ::: Web browser switch: CHROME
+2022-01-05 15:20:09.593 [DEBUG] ::: Starting CHROME web driver
+2022-01-05 15:20:09.593 [DEBUG] ::: C:\automation
+2022-01-05 15:20:09.594 [DEBUG] ::: set System setProperty for chromedriver Windows
+2022-01-05 15:20:10.817 [DEBUG] ::: CHROME web driver started successfully
+2022-01-05 15:20:11.547 [DEBUG] ::: Send keys: autoadmin to: presented-username
+2022-01-05 15:20:11.600 [DEBUG] ::: Send keys: snap3535! to: password
+2022-01-05 15:20:11.632 [DEBUG] ::: Click: By.id: btnSubmit
+2022-01-05 15:20:11.770 [DEBUG] ::: Click: By.id: side-menu-button-model
+2022-01-05 15:20:13.893 [DEBUG] ::: Click: By.className: file-uploader
+2022-01-05 15:20:15.609 [DEBUG] ::: Send keys: null05012022_152015 to: //input[@id='model-name-input']
+2022-01-05 15:20:15.706 [DEBUG] ::: Click: By.id: model-save-btn

@@ -1,11 +1,14 @@
 package com.pyramid.tests.ui;
 
+import com.pyramid.modules.LoginModules;
 import com.pyramid.modules.ModelModules;
 import com.pyramid.tests.BaseTest;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 
 import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import static com.pyramid.utils.TestDataParser.loadTestDataAsMapStringString;
 
@@ -20,10 +23,15 @@ public class win2Test extends BaseTest {
     @Severity(SeverityLevel.BLOCKER)
     public void addModelUI() {
         String fileNameToUpload = loadTestDataAsMapStringString(modelPath).get("fileNameToUpload");
+        String fileName = loadTestDataAsMapStringString(modelPath).get("Beer_Data");
         ModelModules modelModules = new ModelModules();
-        modelModules.win2Login();
+        LoginModules loginModules = new LoginModules();
+        loginModules.win2Login();
         modelModules.clickModel();
         modelModules.uploadFile(fileNameToUpload);
+        SimpleDateFormat formatter = new SimpleDateFormat("ddMMyyyy_HHmmss");
+        Date date = new Date();
+        modelModules.setModelName(fileName + formatter.format(date));
         modelModules.clickBuild();
     }
 }

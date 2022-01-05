@@ -107,7 +107,7 @@ public abstract class BaseTest {
         seleniumUtils.analyzeLog();
         takeScreenshot();
       }
-      seleniumUtils.closeRuntimeBrowserInstance();
+//      seleniumUtils.closeRuntimeBrowserInstance();
     }
     }
 

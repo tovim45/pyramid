@@ -24,7 +24,7 @@ public class LinkedinTest extends BaseTest {
     linkedinModules.clickMe();
     linkedinModules.clickProfile();
     linkedinModules.clickConnections();
-    assertThat(linkedinModules.linkedinVerifyConnectionName("Maia")).isTrue();
+    assertThat(linkedinModules.linkedinVerifyConnectionName("sdhdfgh")).isTrue();
     assertThat(linkedinModules.linkedinVerifyConnectionName("nameThatIsNotExists")).isFalse();
   }
 }
